@@ -38,7 +38,8 @@ export default class App extends Component {
       showText: true,
       isReady: false,
       pressStatus: false,
-      message: "I GOT YOU BISH"
+      message: "I GOT YOU BISH",
+      fileNames: ["a", "b", "c", "d", "e", "f", "g", "h"]
     };
   }
 
@@ -50,9 +51,9 @@ export default class App extends Component {
   };
 
   handlePress = () => {
-    const fakeText = ["Fuckyou", "SUck it", "I wDumbass", "Bazinga", "Yaas Queen"];
+    //const fakeText = ["Fuckyou", "SUck it", "I wDumbass", "Bazinga", "Yaas Queen"];
     this.setState({ showText: true, pressStatus: true });
-    PlaySound('cat_meow');
+    PlaySound(this.state.fileNames[Math.floor(Math.random() * this.state.fileNames.length)]);
     /* if (this.state.showText) {
       //Tts.speak(fakeText[Math.floor(Math.random() * fakeText.length)]);
       this.setState({ showText: false });
