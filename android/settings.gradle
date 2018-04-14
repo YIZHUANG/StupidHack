@@ -1,4 +1,6 @@
 rootProject.name = 'StupidHackFinal'
+include ':react-native-toast-native'
+project(':react-native-toast-native').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-toast-native/android')
 include ':react-native-play-sound'
 project(':react-native-play-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-play-sound/android')
 include ':react-native-tts'

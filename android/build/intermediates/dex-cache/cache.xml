@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-play-sound\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="70da59f0cba77109be4ef2284d38c9430cb08ed9">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\StupidHackFinal-react-native-play-sound-unspecified_b8374b80883446999c0d78dbbad490ab558815eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-tts\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3ea098039a4993218d5da8a8defb6820a9681a8a">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\StupidHackFinal-react-native-tts-unspecified_e1a65d9c947b3b56f05854cf836a8fe2b9ab60ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_7a0183c01d40ad82726ee531d8168f56f32669b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_0e563785c2581445a49d1ab78162c2a42d938bc4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.4.0_913a97f8d4cef03ad618ab9a954e33680c88de38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.2\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_7cbfdfde1b5b8ba94bb760bc482ac1f4538b83db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_49b58c415ca2759097969a116279dc647c647c4c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_8cae2270c81f1573324d1d57a090c7ea6546711f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0_83f9bdb10912ba307a43eb30426b8d27fcffa8c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_a11f2b26c71b6dff2ffb5c0d9c0254473f3cc4c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_4d870f4a0b8baa627adc54749f610017f89790b8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.4.0_d49c471404bb0e3e2f97560d47fceefcb48d7d29.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_dbc93fe9fc5982a071472640c1735124b2886991.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_fbf1db4b0638abd35982ae24bbce9ae28413bae0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.2\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e9d3a3d3a781fe8fe55b743c397ae7f097c21b0">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.2_f1dd2ad1a637798aabb3af74aa731f234cb9d650.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_0807fb9e2c7333a207329dde0f28f5d5db236b89.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_3ddb5d92bb35c1e4fcde2f917d8bac95053fc52f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_9ebe8a260192fa7f10d0048ecdcbfa9fe040fa18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_0bb891da8574936dc1b661a724ff879bbb4555e3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.4.0_1c203d7b296cc2e167568e2ade7a4536fe427e55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_25d7af62e3d1b7d5dc5832416e87a157e24c418e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_e0329d4d6012cc7e6c254fcb2852cddaa4ebd483.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_6873994a52f07aa283fc0fd1449bb67dcf416e53.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_367365e7cd2dc451e05cebbbfedd34aa5a139e42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.4.0_4837aa1788ca0b2717117966632de1006b9d3d49.jar" />
+    </item>
+
+</items>

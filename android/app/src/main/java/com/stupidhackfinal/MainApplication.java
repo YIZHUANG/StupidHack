@@ -3,6 +3,7 @@ package com.stupidhackfinal;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.toast.RCTToastPackage;
 import com.soundapp.SoundModulePackage;
 import net.no_mad.tts.TextToSpeechPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RCTToastPackage(),
             new SoundModulePackage(),
             new TextToSpeechPackage()
       );

@@ -12,21 +12,19 @@ import {
   Alert,
   TouchableHighlight,
   PropTypes,
-  Image
+  Image,
+  Switch
 } from "react-native";
 import Tts from "react-native-tts";
 import SpeechAndroid from "react-native-android-voice";
 import faker from "faker";
+import { Button, Icon, Header, Body, Title, Container,Toast,Text} from "native-base";
 import {
-  Button,
-  Text,
-  Icon,
-  Header,
-  Body,
-  Title,
-  Container
-} from "native-base";
-import { PlaySound, StopSound, PlaySoundRepeat, PlaySoundMusicVolume } from 'react-native-play-sound';
+  PlaySound,
+  StopSound,
+  PlaySoundRepeat,
+  PlaySoundMusicVolume
+} from "react-native-play-sound";
 
 // type Props = {};
 export default class App extends Component {
@@ -38,7 +36,8 @@ export default class App extends Component {
       showText: true,
       isReady: false,
       pressStatus: false,
-      message: "I GOT YOU BISH"
+      message: "I GOT YOU BISH",
+      mode:false
     };
   }
 
@@ -50,9 +49,15 @@ export default class App extends Component {
   };
 
   handlePress = () => {
-    const fakeText = ["Fuckyou", "SUck it", "I wDumbass", "Bazinga", "Yaas Queen"];
+    const fakeText = [
+      "Fuckyou",
+      "SUck it",
+      "I wDumbass",
+      "Bazinga",
+      "Yaas Queen"
+    ];
     this.setState({ showText: true, pressStatus: true });
-    PlaySound('cat_meow');
+    PlaySound("cat_meow");
     /* if (this.state.showText) {
       //Tts.speak(fakeText[Math.floor(Math.random() * fakeText.length)]);
       this.setState({ showText: false });
@@ -84,9 +89,12 @@ export default class App extends Component {
   };
 
   otherButton = () => {
-    return <Image 
-    source={require('./wave-icon.png')}
-    style={{width: 100, height: 100}}></Image>;
+    return (
+      <Image
+        source={require("./wave-icon.png")}
+        style={{ width: 100, height: 100 }}
+      />
+    );
   };
   async getDialogFlow(msg) {
     const ACCESS_TOKEN = "b3508621503a4fe5b7c924a726ee73b6";
@@ -118,6 +126,11 @@ export default class App extends Component {
     }
   }
 
+onSwitch(value){
+  this.setState({mode:value});
+
+}
+
   render() {
     return (
       <Container>
@@ -129,6 +142,13 @@ export default class App extends Component {
           </Body>
         </Header>
         <View style={styles.container}>
+          <View style={{ flexDirection: "row",alignItems:'center' }}>
+            <Text>Dumb Mode</Text>
+            <Switch
+              onValueChange={ (value) =>this.onSwitch(value)}
+               value={this.state.mode} />
+            <Text>Smart Mode</Text>
+          </View>
           <TouchableHighlight
             activeOpacity={1}
             underlayColor={"#f2028e"}
@@ -161,6 +181,8 @@ const styles = StyleSheet.create({
     width: 250,
     height: 250,
     backgroundColor: "#e2689d",
-    borderRadius: 100
+    borderRadius: 100,
+    marginBottom: 100,
+    marginTop: 100
   }
 });
