@@ -107,9 +107,9 @@ export default class SmartMode extends Component {
     if (this.state.speechOver) {
       try {
         await Voice.cancel();
-      const res=await this.getDialogFlow();
-        Tts.speak(res.result.fulfillment.speech)
-        console.log("It is over")
+        const res = await this.getDialogFlow();
+        Tts.speak(res.result.fulfillment.speech);
+        console.log("It is over");
       } catch (e) {
         console.error(e);
       }
@@ -224,9 +224,21 @@ export default class SmartMode extends Component {
         >
           {!this.state.pressStatus ? this.normalButton() : this.otherButton()}
         </TouchableHighlight>
-
-        <TouchableHighlight style={{marginTop:50}} onPress={this._cancelRecognizing.bind(this)}>
-          <Text>Cancel</Text>
+        <TouchableHighlight
+          style={{
+            borderWidth: 1,
+            borderColor: "rgba(0,0,0,0.2)",
+            alignItems: "center",
+            justifyContent: "center",
+            width: 100,
+            height: 100,
+            backgroundColor: "#e2689d",
+            borderRadius: 100,
+            marginBottom: 30
+          }}
+          onPress={this._cancelRecognizing.bind(this)}
+        >
+          <Text>Please Allow me to speak</Text>
         </TouchableHighlight>
       </View>
     );
@@ -250,7 +262,7 @@ const styles = StyleSheet.create({
     height: 250,
     backgroundColor: "#e2689d",
     borderRadius: 100,
-    marginBottom: 100,
+    marginBottom: 10,
     marginTop: 100
   }
 });
