@@ -34,21 +34,87 @@ import {
   PlaySoundMusicVolume
 } from "react-native-play-sound";
 import Toast from "react-native-toast-native";
-
+import Voice from "react-native-voice";
 // type Props = {};
 export default class SmartMode extends Component {
   constructor(props) {
     super(props);
     this.handlePress = this.handlePress.bind(this);
     this.getDialogFlow = this.getDialogFlow.bind(this);
+    Voice.onSpeechStart = this.onSpeechStart.bind(this);
+    Voice.onSpeechRecognized = this.onSpeechRecognized.bind(this);
+    Voice.onSpeechEnd = this.onSpeechEnd.bind(this);
+    Voice.onSpeechError = this.onSpeechError.bind(this);
+    Voice.onSpeechResults = this.onSpeechResults.bind(this);
+    Voice.onSpeechPartialResults = this.onSpeechPartialResults.bind(this);
+    Voice.onSpeechVolumeChanged = this.onSpeechVolumeChanged.bind(this);
     this.state = {
       showText: true,
       isReady: false,
       mode: false,
       pressStatus: false,
       message: "I GOT YOU BISH",
-      fileNames: ["a", "b", "c", "d", "e", "f", "g", "h"]
+      fileNames: ["a", "b", "c", "d", "e", "f", "g", "h"],
+      speechOver: false
     };
+  }
+
+  onSpeechStart(e) {
+    this.setState({
+      started: "√"
+    });
+  }
+
+  onSpeechRecognized(e) {
+    this.setState({
+      recognized: "√"
+    });
+  }
+
+  onSpeechEnd(e) {
+    this.setState({
+      end: "√"
+    });
+  }
+
+  onSpeechError(e) {
+    this.setState({
+      error: JSON.stringify(e.error)
+    });
+  }
+
+  onSpeechResults(e) {
+    this.setState({
+      results: e.value
+    });
+    console.log("value", e.value);
+  }
+
+  onSpeechPartialResults(e) {
+    this.setState({
+      partialResults: e.value
+    });
+    console.log("Partial", e.value);
+  }
+
+  onSpeechVolumeChanged(e) {
+    this.setState({
+      pitch: e.value
+    });
+  }
+
+  async _cancelRecognizing(e) {
+    await Tts.speak('Helll world')
+    if (this.state.speechOver) {
+      try {
+        await Voice.cancel();
+      const res=await this.getDialogFlow()
+        Tts.speak(res.result.fulfillment.speech)
+        console.log("It is over")
+      } catch (e) {
+        console.error(e);
+      }
+    }
   }
 
   _onHideUnderlay = () => {
@@ -71,6 +137,15 @@ export default class SmartMode extends Component {
       this.setState({ showText: false });
     } */
   };
+
+  async _startRecognizing(e) {
+    this.setState({ speechOver: true, showText: true, pressStatus: true });
+    try {
+      await Voice.start("en-US");
+    } catch (e) {
+      console.error(e);
+    }
+  }
 
   changeMessage = () => {
     if (!this.state.pressStatus) {
@@ -104,8 +179,8 @@ export default class SmartMode extends Component {
       />
     );
   };
-  async getDialogFlow(msg) {
-    const ACCESS_TOKEN = "b3508621503a4fe5b7c924a726ee73b6";
+  async getDialogFlow() {
+    const ACCESS_TOKEN = "d0db09819a424589bc1be9e779b15ff7";
 
     try {
       const response = await fetch(
@@ -118,16 +193,14 @@ export default class SmartMode extends Component {
             Authorization: `Bearer ${ACCESS_TOKEN}`
           },
           body: JSON.stringify({
-            query: msg,
+            query: this.state.partialResults[0],
             lang: "EN",
             sessionId: "somerandomthing"
           })
         }
       );
       let responseJson = await response.json();
-      this.setState({
-        showText: responseJson.result.fulfillment.speech
-      });
+      console.log("damn it", responseJson);
       return responseJson;
     } catch (error) {
       console.error(error);
@@ -141,16 +214,22 @@ export default class SmartMode extends Component {
 
   render() {
     return (
-      <TouchableHighlight
-        activeOpacity={1}
-        underlayColor={"#f2028e"}
-        onHideUnderlay={this._onHideUnderlay}
-        onShowUnderlay={this._onShowUnderlay}
-        style={styles.basicButton}
-        onPress={this.handlePress}
-      >
-        {!this.state.pressStatus ? this.normalButton() : this.otherButton()}
-      </TouchableHighlight>
+      <View>
+        <TouchableHighlight
+          activeOpacity={1}
+          underlayColor={"#f2028e"}
+          onHideUnderlay={this._onHideUnderlay}
+          onShowUnderlay={this._onShowUnderlay}
+          style={styles.basicButton}
+          onPress={this._startRecognizing.bind(this)}
+        >
+          {!this.state.pressStatus ? this.normalButton() : this.otherButton()}
+        </TouchableHighlight>
+
+        <TouchableHighlight style={{marginTop:50}} onPress={this._cancelRecognizing.bind(this)}>
+          <Text>Cancel</Text>
+        </TouchableHighlight>
+      </View>
     );
   }
 }

@@ -156,6 +156,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-voice\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="85fb0b91fd172270bf5130f342908eec2aca7d88">
+        <dex dex="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\pre-dexed\debug\StupidHackFinal-react-native-voice-unspecified_3437a29f7ca02725c3f1a6fefec33ec9caf7f184.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-toast-native\unspecified\jars\classes.jar"
         jumboMode="false"
         optimize="true"

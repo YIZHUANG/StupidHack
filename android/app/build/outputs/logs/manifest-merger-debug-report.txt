@@ -15,6 +15,7 @@ ADDED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\Andro
 		INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [StupidHackFinal:react-native-voice:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-voice\unspecified\AndroidManifest.xml:14:5-67
 	android:name
 		ADDED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
@@ -69,6 +70,7 @@ uses-sdk
 INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [StupidHackFinal:react-native-play-sound:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-play-sound\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [StupidHackFinal:react-native-tts:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-tts\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [StupidHackFinal:react-native-voice:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-voice\unspecified\AndroidManifest.xml:8:5-11:54
 MERGED from [StupidHackFinal:react-native-toast-native:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-toast-native\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.2] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
@@ -84,13 +86,17 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] C:\Users\yizhu\Deskto
 MERGED from [com.facebook.fresco:fbcore:1.3.0] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\AndroidManifest.xml:2:3-70
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:23:9-75
+		ADDED from [StupidHackFinal:react-native-voice:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-voice\unspecified\AndroidManifest.xml:11:9-51
 	android:targetSdkVersion
 		INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [StupidHackFinal:react-native-voice:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-voice\unspecified\AndroidManifest.xml:13:5-71
+	android:name
+		ADDED from [StupidHackFinal:react-native-voice:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-voice\unspecified\AndroidManifest.xml:13:22-68
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 IMPLIED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
