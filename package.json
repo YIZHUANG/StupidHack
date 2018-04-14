@@ -1,0 +1,27 @@
+{
+  "name": "StupidHackFinal",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "native-base": "^2.4.2",
+    "react": "16.3.1",
+    "react-native": "0.55.2",
+    "react-native-android-voice": "^0.6.0",
+    "react-native-play-sound": "^1.0.24",
+    "react-native-tts": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
