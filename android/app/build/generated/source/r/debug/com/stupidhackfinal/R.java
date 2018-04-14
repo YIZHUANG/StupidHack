@@ -2037,6 +2037,8 @@ containing a value of this type.
         public static final int f=0x7f070005;
         public static final int g=0x7f070006;
         public static final int h=0x7f070007;
+        public static final int m=0x7f070008;
+        public static final int u=0x7f070009;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f080000;

@@ -33,8 +33,8 @@ import {
   PlaySoundRepeat,
   PlaySoundMusicVolume
 } from "react-native-play-sound";
-import Toast from "react-native-toast-native";
 import SmartMode from "./smartMode";
+import Toast, {DURATION} from 'react-native-easy-toast';
 
 // type Props = {};
 export default class App extends Component {
@@ -139,17 +139,21 @@ export default class App extends Component {
     let damnit=["dumb","s"]
     this.setState({ mode: value });
     if (value) {
-      Toast.show("You in the smart mode bitch!", Toast.SHORT, Toast.TOP);
-      PlaySound('l');
+      this.refs.toast.show('You in the smart mode bitch!',1000)
+      PlaySound('u');
     } else {
-      Toast.show("You in the dumb mode bitch!", Toast.SHORT, Toast.TOP);
-      PlaySound('l');
+        this.refs.toast.show('You in the dumb mode bitch!',1000)
+      PlaySound('m');
     }
   }
 
   render() {
     return (
       <Container>
+        <Toast ref="toast"
+         position='bottom'
+         opacity={0.8}
+         />
         <Header style={{ height: 80 }}>
           <Body>
             <Title style={{ marginTop: 20 }}>

@@ -651,6 +651,8 @@ int raw e 0x7f070004
 int raw f 0x7f070005
 int raw g 0x7f070006
 int raw h 0x7f070007
+int raw m 0x7f070008
+int raw u 0x7f070009
 int string abc_action_bar_home_description 0x7f080000
 int string abc_action_bar_home_description_format 0x7f080001
 int string abc_action_bar_home_subtitle_description_format 0x7f080002

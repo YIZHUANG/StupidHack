@@ -12,6 +12,7 @@
     "react": "16.3.1",
     "react-native": "0.55.2",
     "react-native-android-voice": "^0.6.0",
+    "react-native-easy-toast": "^1.1.0",
     "react-native-play-sound": "^1.0.24",
     "react-native-simple-toast": "0.0.8",
     "react-native-toast-native": "^1.2.1",
