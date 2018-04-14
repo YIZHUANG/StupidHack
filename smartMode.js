@@ -104,11 +104,10 @@ export default class SmartMode extends Component {
   }
 
   async _cancelRecognizing(e) {
-    await Tts.speak('Helll world')
     if (this.state.speechOver) {
       try {
         await Voice.cancel();
-      const res=await this.getDialogFlow()
+      const res=await this.getDialogFlow();
         Tts.speak(res.result.fulfillment.speech)
         console.log("It is over")
       } catch (e) {
@@ -180,7 +179,7 @@ export default class SmartMode extends Component {
     );
   };
   async getDialogFlow() {
-    const ACCESS_TOKEN = "d0db09819a424589bc1be9e779b15ff7";
+    const ACCESS_TOKEN = "2aca5270239041c18c7737af28b0da6c";
 
     try {
       const response = await fetch(
