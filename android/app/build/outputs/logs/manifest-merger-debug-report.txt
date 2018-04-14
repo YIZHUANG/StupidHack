@@ -69,6 +69,7 @@ uses-sdk
 INJECTED from C:\Users\yizhu\Desktop\projects\StupidHack\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [StupidHackFinal:react-native-play-sound:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-play-sound\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [StupidHackFinal:react-native-tts:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-tts\unspecified\AndroidManifest.xml:7:5-9:41
+MERGED from [StupidHackFinal:react-native-toast-native:unspecified] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\StupidHackFinal\react-native-toast-native\unspecified\AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.55.2] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.2\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.4.0\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\yizhu\Desktop\projects\StupidHack\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.4.0\AndroidManifest.xml:5:5-44

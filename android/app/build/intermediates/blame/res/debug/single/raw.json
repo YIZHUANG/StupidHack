@@ -1,6 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\cat_meow.mp3",
-        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\cat_meow.mp3"
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\h.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\h.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\b.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\b.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\e.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\e.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\d.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\d.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\g.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\g.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\a.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\a.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\f.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\f.mp3"
+    },
+    {
+        "merged": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\res\\merged\\debug\\raw\\c.mp3",
+        "source": "C:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\src\\main\\res\\raw\\c.mp3"
     }
 ]

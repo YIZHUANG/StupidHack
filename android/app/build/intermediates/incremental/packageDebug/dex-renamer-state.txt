@@ -1,4 +1,4 @@
-#Sat Apr 14 10:32:11 EEST 2018
+#Sat Apr 14 11:11:40 EEST 2018
 base.0=C\:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\yizhu\\Desktop\\projects\\StupidHack\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
