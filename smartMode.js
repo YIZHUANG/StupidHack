@@ -1,8 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
 import React, { Component } from "react";
 import {
   StyleSheet,
@@ -13,11 +8,10 @@ import {
   TouchableHighlight,
   PropTypes,
   Image,
-  Switch
+  Switch,
+  WebView
 } from "react-native";
 import Tts from "react-native-tts";
-import SpeechAndroid from "react-native-android-voice";
-import faker from "faker";
 import {
   Button,
   Icon,
@@ -33,7 +27,6 @@ import {
   PlaySoundRepeat,
   PlaySoundMusicVolume
 } from "react-native-play-sound";
-import Toast from "react-native-toast-native";
 import Voice from "react-native-voice";
 // type Props = {};
 export default class SmartMode extends Component {
@@ -45,7 +38,8 @@ export default class SmartMode extends Component {
     Voice.onSpeechRecognized = this.onSpeechRecognized.bind(this);
     Voice.onSpeechEnd = this.onSpeechEnd.bind(this);
     Voice.onSpeechError = this.onSpeechError.bind(this);
-    Voice.onSpeechResults = this.onSpeechResults.bind(this);
+    Voice.onSpeechRes;
+    ults = this.onSpeechResults.bind(this);
     Voice.onSpeechPartialResults = this.onSpeechPartialResults.bind(this);
     Voice.onSpeechVolumeChanged = this.onSpeechVolumeChanged.bind(this);
     this.state = {
@@ -55,7 +49,8 @@ export default class SmartMode extends Component {
       pressStatus: false,
       message: "I GOT YOU BISH",
       fileNames: ["a", "b", "c", "d", "e", "f", "g", "h"],
-      speechOver: false
+      speechOver: false,
+      showGif: false
     };
   }
 
@@ -108,8 +103,21 @@ export default class SmartMode extends Component {
       try {
         await Voice.cancel();
         const res = await this.getDialogFlow();
-        Tts.speak(res.result.fulfillment.speech);
-        console.log("It is over");
+         if (
+          res.result.fulfillment.speech ==
+          "Don't worry! Here is a song for you. Enjoy."
+        ) {
+          Tts.speak("Don't worry! Here is a song for you. Enjoy.", 1000);
+          setTimeout(() => PlaySound("v"), 2000);
+        } else if (
+          res.result.fulfillment.speech == "Your mom didn't teach you well!"
+        ) {
+          Tts.speak(res.result.fulfillment.speech, 1000);
+          setTimeout(() => this.setState({ showGif: true }), 2000);
+          setTimeout(() => this.setState({ showGif: false }), 5000);
+        } else {
+          setTimeout(() => Tts.speak(res.result.fulfillment.speech), 1000);
+        }
       } catch (e) {
         console.error(e);
       }
@@ -212,6 +220,16 @@ export default class SmartMode extends Component {
   }
 
   render() {
+    if (this.state.showGif) {
+      return (
+        <Image
+          style={{ width: 200, height: 200 }}
+          source={{
+            uri: "https://www.planwallpaper.com/static/images/funny-527.jpg"
+          }}
+        />
+      );
+    }
     return (
       <View>
         <TouchableHighlight
